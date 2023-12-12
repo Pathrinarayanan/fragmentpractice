@@ -1,19 +1,18 @@
 package com.example.fragment11_12;
-
 public class WidgetItem {
-    private String widgetTitle;
-    private String widgetType;
+    private String widget_title;
+    private String widget_type;
 
-    public WidgetItem(String widgetTitle, String widgetType) {
-        this.widgetTitle = widgetTitle;
-        this.widgetType = widgetType;
+    // Default constructor (required for JSON deserialization)
+    public WidgetItem() {
     }
 
+    // Getters for each field
     public String getWidgetTitle() {
-        return widgetTitle;
+        return widget_title;
     }
 
     public String getWidgetType() {
-        return widgetType;
+        return widget_type;
     }
 }
